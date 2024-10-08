@@ -12,10 +12,10 @@ bisal_grp = "https://t.me/SB_Movie_Group"
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '14680661'))
+    API_ID = int(getenv('API_ID', '14680661 1393092521'))
     API_HASH = str(getenv('API_HASH', '166f6e394021081c5cdb41c92344deb7'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , '6899819096:AAE488MvHYGfFy_P8xUq-6IL3NH2Lg4JoJc'))
-    name = str(getenv('name', '@SB_File_to_link_Bot'))
+    name = str(getenv('name', 'SB_File_to_link_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001764238165'))
@@ -41,6 +41,6 @@ class Var(object):
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://raj94626:sona@cluster0.knynp3p.mongodb.net/?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'SB_Botz_Update')) 
-    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001764238165")).split()))   
+    BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-100165181261")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "-1001963473990")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @SB_Botz_Update ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
