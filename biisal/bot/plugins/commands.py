@@ -245,7 +245,7 @@ async def cb_handler(client, query):
     elif data == "aboutDev":
         # please don't steal credit
         await query.message.edit_caption(
-            caption=f"<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀsɴᴀ ᴅᴇᴀʀ...\nɪᴍ <a href='https://t.me/Your_Raj'>𝚁𝚊𝚓 𝚅𝚎𝚛𝚖𝚊 ♧</a>\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ  ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://github.com/Aeditx03'>Bɪɪsᴀʟ</a> ʙʀᴏ..\n\nʟᴏɢɪᴄ ᴡʀɪᴛᴇʀ : <a href='https://github.com/Aeditx03'>Bɪɪsᴀʟ's Gɪᴛʜᴜʙ</a>\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ  : <a href='https://t.me/Your_Rjv'>𝚁𝚊𝚓 𝚅𝚎𝚛𝚖𝚊 ♧</a></b>",
+            caption=f"<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀsɴᴀ ᴅᴇᴀʀ...\nɪᴍ <a href='https://t.me/Your_Raj'>𝚁𝚊𝚓 𝚅𝚎𝚛𝚖𝚊 ♧</a>\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ  ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://t.me/Biisal'>Bɪɪsᴀʟ</a> ʙʀᴏ..\n\nʟᴏɢɪᴄ ᴡʀɪᴛᴇʀ : <a href='https://t.me/Biisal'>Bɪɪsᴀʟ's Bro</a>\nᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ  : <a href='https://t.me/Your_Rjv'>𝚁𝚊𝚓 𝚅𝚎𝚛𝚖𝚊 ♧</a></b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
