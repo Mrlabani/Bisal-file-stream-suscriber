@@ -12,7 +12,7 @@ bisal_grp = "https://t.me/SB_Movie_Group"
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '14680661 1393092521'))
+    API_ID = int(getenv('API_ID', '14680661'))
     API_HASH = str(getenv('API_HASH', '166f6e394021081c5cdb41c92344deb7'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , '6899819096:AAE488MvHYGfFy_P8xUq-6IL3NH2Lg4JoJc'))
     name = str(getenv('name', 'SB_File_to_link_Bot'))
@@ -23,7 +23,7 @@ class Var(object):
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-    OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "7309705064").split()]
+    OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "7309705064 1393092521").split()]
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
     OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'Your_RJV'))
