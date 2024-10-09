@@ -5,4 +5,4 @@ COPY . /app
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "-m", "bisal"]
+CMD ["python", "-m", "biisal"]
